@@ -19,6 +19,7 @@ void init(int id,int s,int e){
     init(2*id,s,mid);
     init(2*id+1,mid+1,e);
     t[id]=t[2*id]+t[2*id+1];
+    
 }
 
 int ask(int id,int s,int e,int i,int j){
